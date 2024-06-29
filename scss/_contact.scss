@@ -1,0 +1,188 @@
+/* Reservation Form Area css */
+.reservation_form_area .res_form_inner {
+    max-width: 555px;
+    margin: auto;
+    box-shadow: 0px 10px 30px 0px rgba(153, 153, 153, 0.1);
+    padding: 75px 50px;
+    position: relative;
+}
+
+.reservation_form_area .res_form_inner:before {
+    content: "";
+    background: url(../img/contact-shap-1.png);
+    position: absolute;
+    left: -125px;
+    height: 421px;
+    width: 98px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.reservation_form_area .res_form_inner:after {
+    content: "";
+    background: url(../img/contact-shap-2.png);
+    position: absolute;
+    right: -125px;
+    height: 421px;
+    width: 98px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.reservation_form_area .reservation_form .form-group input {
+    height: 40px;
+    border-radius: 0px;
+    border: 1px solid #eeeeee;
+    outline: none;
+    box-shadow: none;
+    padding: 0px 15px;
+    font-size: 13px;
+    font-family: $rob;
+    font-weight: 300;
+    color: #999999;
+}
+
+.reservation_form_area .reservation_form .form-group input::placeholder {
+    font-size: 13px;
+    font-family: $rob;
+    font-weight: 300;
+    color: #999999;
+}
+
+.reservation_form_area .reservation_form .form-group .res_select {
+    height: 40px;
+    border: 1px solid #eeeeee;
+    border-radius: 0px;
+    width: 100%;
+    padding: 0px 15px;
+    line-height: 36px;
+}
+
+.reservation_form_area .reservation_form .form-group .res_select .current {
+    font-size: 13px;
+    font-family: $rob;
+    font-weight: 300;
+    color: #999999;
+}
+
+.reservation_form_area .reservation_form .form-group .res_select:after {
+    content: "\e874";
+    font-family: 'Linearicons-Free';
+    color: #cccccc;
+    transform: rotate(0deg);
+    border: none;
+    margin-top: -17px;
+    font-size: 13px;
+    right: 22px;
+}
+
+.reservation_form_area .reservation_form .form-group:last-child {
+    text-align: center;
+}
+
+/* Contact Area css */
+.contact_area .mapBox {
+    display: none; /* Hide map */
+}
+
+.contact_area .contact_info .info_item {
+    position: relative;
+    padding-left: 45px;
+}
+
+.contact_area .contact_info .info_item i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 20px;
+    line-height: 24px;
+    color: $baseColor;
+    font-weight: 600;
+}
+
+.contact_area .contact_info .info_item h6 {
+    font-size: 16px;
+    line-height: 24px;
+    color: $rob;
+    font-weight: bold;
+    margin-bottom: 0px;
+    color: $dip;
+}
+
+.contact_area .contact_info .info_item h6 a {
+    color: $dip;
+}
+
+.contact_area .contact_info .info_item p {
+    font-size: 14px;
+    line-height: 24px;
+    padding: 2px 0px;
+}
+
+.contact_area .contact_form .form-group {
+    margin-bottom: 10px;
+}
+
+.contact_area .contact_form .form-group .form-control {
+    font-size: 13px;
+    line-height: 26px;
+    color: #999;
+    border: 1px solid #eeeeee;
+    font-family: $rob;
+    border-radius: 0px;
+    padding-left: 20px;
+}
+
+.contact_area .contact_form .form-group .form-control:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.contact_area .contact_form .form-group textarea.form-control {
+    resize: none;
+    height: 140px;
+}
+
+.contact_area .contact_form .submit_btn {
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* Contact Success and error Area css */
+.modal-message .modal-dialog {
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%) !important;
+    margin: 0px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.modal-message .modal-dialog .modal-content .modal-header {
+    text-align: center;
+    display: block;
+    border-bottom: none;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.modal-message .modal-dialog .modal-content .modal-header .close {
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    padding: 0px;
+    color: #fff;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.modal-message .modal-dialog .modal-content .modal-header h2 {
+    display: block;
+    text-align: center;
+    color: $baseColor;
+    padding-bottom: 10px;
+    font-family: $rob;
+}
+
+.modal-message
